@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bdf0b4c-d4e8-403e-88f2-062f191ada59" name="Default Changelist" comment="">
+    <list default="true" id="4bdf0b4c-d4e8-403e-88f2-062f191ada59" name="Default Changelist" comment="算法大类：快慢指针、递归算法和动态规划&#10;①快慢指针：判断链表是否有环并返回环口节点&#10;②递归：斐波契那数、爬楼梯&#10;③动态规划：斐波契那数、凑零钱、最小花费爬楼梯、不同路径、不同路径Ⅱ">
+      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/leetcode/dp/f_integer_partition/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/leetcode/dp/f_integer_partition/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/leetcode/reverseLinkedList/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/leetcode/reverseLinkedList/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/leetcode/reverseLinkedList/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/leetcode/reverseLinkedList/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/sort/insertion/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/sort/insertion/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/sort/insertion/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/test/QuickSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/algorithm/leetcode/dp/c_mincost_climbstairs/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/algorithm/leetcode/dp/c_mincost_climbstairs/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/algorithm/sort/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/algorithm/sort/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/algorithm/sort/insertion/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/algorithm/sort/insertion/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/algorithm/sort/insertion/~$uoming.doc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/algorithm/sort/quick/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/algorithm/sort/quick/QuickSort.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,6 +159,12 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
@@ -159,6 +181,7 @@
     <option name="width" value="1550" />
     <option name="height" value="945" />
   </component>
+  <component name="ProjectId" id="2dD3FE78v9r14HbpO1rBcfRfwuk" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -237,28 +260,30 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaProject/data_structure_and_algorithm&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.algorithm.leetcode.recrusive.fib" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -322,6 +347,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_392-corretto-1.8.0_392-f644763e9732-f719d367" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -336,7 +369,21 @@
       <workItem from="1609620435424" duration="2008000" />
       <workItem from="1609656557679" duration="4892000" />
       <workItem from="1609699459864" duration="4747000" />
+      <workItem from="1709528717390" duration="2562000" />
+      <workItem from="1709557698334" duration="5240000" />
+      <workItem from="1709708911154" duration="4262000" />
+      <workItem from="1709865261459" duration="10301000" />
+      <workItem from="1710138672873" duration="2355000" />
     </task>
+    <task id="LOCAL-00001" summary="算法大类：快慢指针、递归算法和动态规划&#10;①快慢指针：判断链表是否有环并返回环口节点&#10;②递归：斐波契那数、爬楼梯&#10;③动态规划：斐波契那数、凑零钱、最小花费爬楼梯、不同路径、不同路径Ⅱ">
+      <option name="closed" value="true" />
+      <created>1709736577781</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709736577781</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -378,21 +425,23 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="算法大类：快慢指针、递归算法和动态规划&#10;①快慢指针：判断链表是否有环并返回环口节点&#10;②递归：斐波契那数、爬楼梯&#10;③动态规划：斐波契那数、凑零钱、最小花费爬楼梯、不同路径、不同路径Ⅱ" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法大类：快慢指针、递归算法和动态规划&#10;①快慢指针：判断链表是否有环并返回环口节点&#10;②递归：斐波契那数、爬楼梯&#10;③动态规划：斐波契那数、凑零钱、最小花费爬楼梯、不同路径、不同路径Ⅱ" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/algorithm/sort/Main.java</url>
-          <line>35</line>
-          <properties />
+          <line>39</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/algorithm/sort/insertion/BinarySearch.java</url>
-          <line>8</line>
-          <properties />
+          <line>9</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>

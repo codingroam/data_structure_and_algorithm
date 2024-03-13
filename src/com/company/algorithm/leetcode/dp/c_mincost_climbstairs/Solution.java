@@ -3,7 +3,7 @@ package com.company.algorithm.leetcode.dp.c_mincost_climbstairs;
 class Solution {
     public int minCostClimbingStairs(int[] cost) {
 
-        int dp[] = new int[cost.length + 1];
+        int[] dp = new int[cost.length + 1];
         dp[0] = 0;
         dp[1] = 0;
 

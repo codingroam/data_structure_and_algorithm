@@ -6,7 +6,7 @@ public class QuickSort extends Sort {
 
     @Override
     protected void sort() {
-        sort(0,array.length);
+        sort(0,array.length-1);
 
     }
 
@@ -16,7 +16,7 @@ public class QuickSort extends Sort {
      * @param end
      */
     private void sort(int begin, int end) {
-        if(end-begin<2) return;
+        if(end-begin<1) return;
         int mid = pivotIndex(begin,end);
         sort(begin,mid);
         sort(mid+1,end);
@@ -33,7 +33,6 @@ public class QuickSort extends Sort {
      */
 
     private int pivotIndex(int begin, int end) {
-        end--;
         int pivotElement = array[begin];
         boolean flag = true;//flag用来区分从数组头或者尾比较，为true表示从尾部向前比较
         while(begin!=end){

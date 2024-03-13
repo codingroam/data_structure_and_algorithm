@@ -9,11 +9,12 @@ import com.company.algorithm.sort.insertion.InsertionSortByBinSearch;
 import com.company.algorithm.sort.merge.MergeSort;
 import com.company.algorithm.sort.quick.QuickSort;
 import com.company.algorithm.sort.selection.SelectionSort;
+import com.company.algorithm.test.QuickSortTest;
 
 public class Main {
     public static void main(String[] args) {
 
-        int[] array = SortUtils.getArray(15000);
+        int[] array = SortUtils.getArray(20);
 
         Sort bubbleSort = new BubbleSort();
         Sort bubbleSortAdvance = new BubbleSortAdvance();
@@ -32,6 +33,9 @@ public class Main {
         insertionSortByBinSearch.sort(array.clone());
         mergeSort.sort(array.clone());
         quickSort.sort(array.clone());
+        QuickSortTest.sort(array.clone());
+
+
 
         //BinarySearch.getIndex(array,5);
 

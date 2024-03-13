@@ -2,29 +2,33 @@ package com.company.algorithm.sort.insertion;
 
 
 /**
- * 对有序数组进行二分查找，返回目标值在数组中的位置
+ * 对有序数组进行二分查找，返回目标值在数组中的位置,若找不到返回-1
  */
 public class BinarySearch {
-    public static int getIndex(int[] array,int value){
-        if(array==null||array.length==0){
-            System.out.println("未找到下标");
-            return -1;
-        }
-        int begin = 0;
-        int end = array.length;
-        while(end>begin){
-            int mid = (begin+end)/2;
-            if(value>array[mid]){
-                begin = mid+1;
-            }else if(value<array[mid]){
-                end = mid;
-            }else{
-                System.out.println("找到下标为："+mid);
-                return mid;
+    public static int getIndex(int[] nums,int target){
 
+        //左闭右闭写法 [left,right]
+        int left = 0;
+        int right = nums.length - 1;
+
+        while(left<=right){
+
+            int middle = (left + right) / 2;
+
+            if(target < nums[middle]){
+
+                right = middle - 1;
+
+            }else if(target > nums[middle]){
+
+                left = middle + 1;
+
+            }else{
+
+                return middle;
             }
         }
-        System.out.println("未找到下标");
+
         return -1;
     }
 }
