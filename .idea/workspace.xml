@@ -4,23 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bdf0b4c-d4e8-403e-88f2-062f191ada59" name="Default Changelist" comment="算法大类：快慢指针、递归算法和动态规划&#10;①快慢指针：判断链表是否有环并返回环口节点&#10;②递归：斐波契那数、爬楼梯&#10;③动态规划：斐波契那数、凑零钱、最小花费爬楼梯、不同路径、不同路径Ⅱ">
-      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/leetcode/dp/f_integer_partition/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/leetcode/dp/f_integer_partition/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/leetcode/reverseLinkedList/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/leetcode/reverseLinkedList/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/leetcode/reverseLinkedList/Solution1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/leetcode/reverseLinkedList/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/sort/insertion/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/sort/insertion/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/sort/insertion/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/test/QuickSortTest.java" afterDir="false" />
+    <list default="true" id="4bdf0b4c-d4e8-403e-88f2-062f191ada59" name="Default Changelist" comment="修改快速排序&#10;增加反转链表算法">
+      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/leetcode/arrays/minlenth_subarr/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/leetcode/arrays/minlenth_subarr/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/leetcode/arrays/minlenth_subarr/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/leetcode/arrays/remove_element/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/leetcode/arrays/remove_element/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/algorithm/sort/bubble/BubbleSortOri.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/algorithm/leetcode/dp/c_mincost_climbstairs/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/algorithm/leetcode/dp/c_mincost_climbstairs/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/algorithm/sort/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/algorithm/sort/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/algorithm/sort/insertion/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/algorithm/sort/insertion/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/algorithm/sort/insertion/~$uoming.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/algorithm/sort/quick/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/algorithm/sort/quick/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,6 +260,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -285,7 +279,7 @@
       <recent name="com.company.algorithm.leetcode.recrusive.fib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.algorithm.sort.bubble.BubbleSort" />
       <module name="data_structure_and_algorithm" />
@@ -338,8 +332,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.algorithm.Solution" />
+      <module name="data_structure_and_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
@@ -374,6 +382,8 @@
       <workItem from="1709708911154" duration="4262000" />
       <workItem from="1709865261459" duration="10301000" />
       <workItem from="1710138672873" duration="2355000" />
+      <workItem from="1710308240235" duration="5660000" />
+      <workItem from="1710389812898" duration="415000" />
     </task>
     <task id="LOCAL-00001" summary="算法大类：快慢指针、递归算法和动态规划&#10;①快慢指针：判断链表是否有环并返回环口节点&#10;②递归：斐波契那数、爬楼梯&#10;③动态规划：斐波契那数、凑零钱、最小花费爬楼梯、不同路径、不同路径Ⅱ">
       <option name="closed" value="true" />
@@ -383,7 +393,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709736577781</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改快速排序&#10;增加反转链表算法">
+      <option name="closed" value="true" />
+      <created>1710308343760</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710308343760</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -429,20 +447,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="算法大类：快慢指针、递归算法和动态规划&#10;①快慢指针：判断链表是否有环并返回环口节点&#10;②递归：斐波契那数、爬楼梯&#10;③动态规划：斐波契那数、凑零钱、最小花费爬楼梯、不同路径、不同路径Ⅱ" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法大类：快慢指针、递归算法和动态规划&#10;①快慢指针：判断链表是否有环并返回环口节点&#10;②递归：斐波契那数、爬楼梯&#10;③动态规划：斐波契那数、凑零钱、最小花费爬楼梯、不同路径、不同路径Ⅱ" />
+    <MESSAGE value="修改快速排序&#10;增加反转链表算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改快速排序&#10;增加反转链表算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/algorithm/sort/Main.java</url>
-          <line>39</line>
+          <line>41</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/algorithm/sort/insertion/BinarySearch.java</url>
           <line>9</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/algorithm/Solution.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

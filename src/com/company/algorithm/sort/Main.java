@@ -2,6 +2,7 @@ package com.company.algorithm.sort;
 
 import com.company.algorithm.sort.bubble.BubbleSort;
 import com.company.algorithm.sort.bubble.BubbleSortAdvance;
+import com.company.algorithm.sort.bubble.BubbleSortOri;
 import com.company.algorithm.sort.insertion.BinarySearch;
 import com.company.algorithm.sort.insertion.InsertionSort;
 import com.company.algorithm.sort.insertion.InsertionSortAdvanced;
@@ -16,24 +17,25 @@ public class Main {
 
         int[] array = SortUtils.getArray(20);
 
-        Sort bubbleSort = new BubbleSort();
-        Sort bubbleSortAdvance = new BubbleSortAdvance();
-        Sort selectionSort = new SelectionSort();
-        Sort insertionSort = new InsertionSort();
-        Sort insertionSortAdvanced = new InsertionSortAdvanced();
-        Sort insertionSortByBinSearch =  new InsertionSortByBinSearch();
-        Sort mergeSort =  new MergeSort();
-        Sort quickSort =  new QuickSort();
-
-        bubbleSort.sort(array.clone());
-        bubbleSortAdvance.sort(array.clone());
-        selectionSort.sort(array.clone());
-        insertionSort.sort(array.clone());
-        insertionSortAdvanced.sort(array.clone());
-        insertionSortByBinSearch.sort(array.clone());
-        mergeSort.sort(array.clone());
-        quickSort.sort(array.clone());
-        QuickSortTest.sort(array.clone());
+//        Sort bubbleSort = new BubbleSort();
+//        Sort bubbleSortAdvance = new BubbleSortAdvance();
+//        Sort selectionSort = new SelectionSort();
+//        Sort insertionSort = new InsertionSort();
+//        Sort insertionSortAdvanced = new InsertionSortAdvanced();
+//        Sort insertionSortByBinSearch =  new InsertionSortByBinSearch();
+//        Sort mergeSort =  new MergeSort();
+//        Sort quickSort =  new QuickSort();
+//
+//        bubbleSort.sort(array.clone());
+//        bubbleSortAdvance.sort(array.clone());
+//        selectionSort.sort(array.clone());
+//        insertionSort.sort(array.clone());
+//        insertionSortAdvanced.sort(array.clone());
+//        insertionSortByBinSearch.sort(array.clone());
+//        mergeSort.sort(array.clone());
+//        quickSort.sort(array.clone());
+//        QuickSortTest.sort(array.clone());
+        BubbleSortOri.sort(array.clone());
 
 
 
