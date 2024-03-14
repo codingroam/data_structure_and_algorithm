@@ -1,4 +1,4 @@
-package com.company.algorithm.leetcode.cycle_linkedlist;
+package com.company.algorithm.leetcode.linkedlist.b_cycle_linkedlist;
 
 import java.util.HashSet;
 import java.util.Set;
